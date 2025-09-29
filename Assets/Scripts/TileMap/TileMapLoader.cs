@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -12,6 +13,8 @@ namespace TileMap
         public Tilemap tilemap;
         public TileMapping[] tileMappings;
         private Dictionary<int, TileBase> _tileDictionary;
+
+        public Action OnFinishLoaderMap;
         
         private void Awake()
         {
@@ -21,24 +24,22 @@ namespace TileMap
         private void Start()
         {
             _tileDictionary = tileMappings.ToDictionary(t => t.id, t => t.tile);
-            TestarCarregamento();
         }
-#if UNITY_EDITOR
+/*#if UNITY_EDITOR
         [ContextMenu("🔁 Testar carregamento de mapa JSON")]
         private void TestarCarregamento()
         {
             var path = System.IO.Path.Combine(Application.streamingAssetsPath, "map.json");
-
             if (!System.IO.File.Exists(path))
             {
                 Debug.LogError("map.json não encontrado em StreamingAssets!");
                 return;
             }
-
             var json = System.IO.File.ReadAllText(path);
             LoadMapFromJson(json);
         }
 #endif
+*/
         private void LoadMapFromJson(string json)
         {
             var mapData = JsonUtility.FromJson<TileMapData>(json);
@@ -112,6 +113,8 @@ namespace TileMap
                 var json = www.downloadHandler.text;
                 Debug.Log("Mapa carregado: " + json);
                 LoadMapFromJson(json);
+                OnFinishLoaderMap?.Invoke();
+                
             }
         }
     }
