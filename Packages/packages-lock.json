@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.oxentegames.version": {
+      "version": "https://github.com/valdecidanilo/com.oxentegames.version.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a85992ddcd6feb92f30b75736166f8ffbe6fd072"
+    },
     "com.unity.2d.animation": {
       "version": "11.0.0",
       "depth": 0,
