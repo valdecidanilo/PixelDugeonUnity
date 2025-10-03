@@ -16,6 +16,7 @@ namespace Utils
         {
             MoveLoop(bg1);
             MoveLoop(bg2, true);
+            
         }
 
         private void MoveLoop(RectTransform bg, bool offset = false)
