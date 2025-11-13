@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 283ffea018729eb4798186d80b78c652
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8560800317148801427
+    second: roleta_maior_numeros_1024x1024_0
+  - first:
+      213: 1573752725820546488
+    second: roleta_maior_numeros_1024x1024_1
+  - first:
+      213: 9196179079465651860
+    second: roleta_maior_numeros_1024x1024_2
+  - first:
+      213: -532219284784473418
+    second: roleta_maior_numeros_1024x1024_3
+  - first:
+      213: -7694544846915567787
+    second: roleta_maior_numeros_1024x1024_4
+  - first:
+      213: -630991196324689603
+    second: roleta_maior_numeros_1024x1024_5
+  - first:
+      213: 6461646776682166983
+    second: roleta_maior_numeros_1024x1024_6
+  - first:
+      213: 1798642434157155434
+    second: roleta_maior_numeros_1024x1024_7
+  - first:
+      213: -3866736468192262297
+    second: roleta_maior_numeros_1024x1024_8
+  - first:
+      213: 8991389536898099189
+    second: roleta_maior_numeros_1024x1024_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_0
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 903
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399a4b808821ec670800000000000000
+      internalID: 8560800317148801427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 899
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd16da14c717d510800000000000000
+      internalID: 1573752725820546488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 730
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ecd6a36246f9f70800000000000000
+      internalID: 9196179079465651860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 694
+        width: 93
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba1fcb516d2d98f0800000000000000
+      internalID: -532219284784473418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 469
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ff84baa3c773590800000000000000
+      internalID: -7694544846915567787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 442
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d390bae99d44e37f0800000000000000
+      internalID: -630991196324689603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 202
+        width: 83
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca303412816ca950800000000000000
+      internalID: 6461646776682166983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_7
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 181
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6491e5a3cf06f810800000000000000
+      internalID: 1798642434157155434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 54
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7670a554ba7965ac0800000000000000
+      internalID: -3866736468192262297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roleta_maior_numeros_1024x1024_9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 49
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7a9f73525d7cc70800000000000000
+      internalID: 8991389536898099189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      roleta_maior_numeros_1024x1024_0: 8560800317148801427
+      roleta_maior_numeros_1024x1024_1: 1573752725820546488
+      roleta_maior_numeros_1024x1024_2: 9196179079465651860
+      roleta_maior_numeros_1024x1024_3: -532219284784473418
+      roleta_maior_numeros_1024x1024_4: -7694544846915567787
+      roleta_maior_numeros_1024x1024_5: -630991196324689603
+      roleta_maior_numeros_1024x1024_6: 6461646776682166983
+      roleta_maior_numeros_1024x1024_7: 1798642434157155434
+      roleta_maior_numeros_1024x1024_8: -3866736468192262297
+      roleta_maior_numeros_1024x1024_9: 8991389536898099189
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
