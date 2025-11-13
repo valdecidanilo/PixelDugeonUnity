@@ -278,9 +278,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'gold
+  m_text: 'Tower
 
-    bundle'
+    zinho'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 087b9ed86b584c440adc38e0de6d3261, type: 2}
   m_sharedMaterial: {fileID: 4610411011910200684, guid: 087b9ed86b584c440adc38e0de6d3261, type: 2}

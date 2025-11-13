@@ -15,14 +15,14 @@ MonoBehaviour:
   m_DefaultGroup: 40335e7c62bcf3e4b87bf43560c6d053
   m_currentHash:
     serializedVersion: 2
-    Hash: 53373dbc8e4315bfd19133e6e0609c12
+    Hash: 675da460577c34ed4633f06000deff86
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
   m_InternalIdNamingMode: 0
-  m_InternalBundleIdMode: 1
+  m_InternalBundleIdMode: 0
   m_AssetLoadMode: 0
   m_BundledAssetProviderType:
     m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -46,9 +46,9 @@ MonoBehaviour:
   m_ContiguousBundles: 1
   m_StripUnityVersionFromBundleBuild: 0
   m_DisableVisibleSubAssetRepresentations: 0
-  m_BuiltInBundleNaming: 0
+  m_BuiltInBundleNaming: 1
   mBuiltInBundleCustomNaming: 
-  m_MonoScriptBundleNaming: 0
+  m_MonoScriptBundleNaming: 1
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
@@ -74,13 +74,13 @@ MonoBehaviour:
       - m_Id: 0962239c5fec845409b5295ed29cc49a
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 284933929b2c0e743b061915167bfd54
-        m_Value: 'ServerData/[BuildTarget]'
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 55669d95f4285d0469999bfb639810ee
-        m_Value: 
+        m_Value: https://oxentegames.com.br/remote
       - m_Id: 9a4dd26d006a19542b521c652edca626
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: d2c21d4d7f0641b4bb7afae256bed4b3
-        m_Value: 
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
     - m_InheritedParent: 
       m_Id: bcdc4ee0d838d8549b31892cc22d06d5
       m_ProfileName: Remote
@@ -88,13 +88,13 @@ MonoBehaviour:
       - m_Id: 0962239c5fec845409b5295ed29cc49a
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 284933929b2c0e743b061915167bfd54
-        m_Value: ServerData/WebGL
+        m_Value: 'ServerData/[BuildTarget]'
       - m_Id: 55669d95f4285d0469999bfb639810ee
-        m_Value: 
+        m_Value: https://oxentegames.com.br/
       - m_Id: 9a4dd26d006a19542b521c652edca626
-        m_Value: ServerData/WebGL
+        m_Value: 'ServerData/[BuildTarget]'
       - m_Id: d2c21d4d7f0641b4bb7afae256bed4b3
-        m_Value: 
+        m_Value: https://oxentegames.com.br/
     m_ProfileEntryNames:
     - m_Id: 0962239c5fec845409b5295ed29cc49a
       m_Name: BuildTarget
