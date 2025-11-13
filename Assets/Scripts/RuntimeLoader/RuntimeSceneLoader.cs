@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
@@ -9,12 +10,31 @@ namespace RuntimeLoader
 {
     public class RuntimeSceneLoader : MonoBehaviour
     {
-        private const string URL = "https://oxentegames.com.br/remote/";
+        private const string URL = "https://oxentegames.com.br/";
         [SerializeField] private GameObject loadingScreen;
+        
+        [SerializeField] private TMP_Text loadingText;
+        [SerializeField] private float delayToNextStep = 0.4f;
+        private float _timer;
+        private int _dotCount = 0;
+        private const string BaseText = "Carregando";
+
         private void Start()
         {
             LoadAdditiveScene();
             loadingScreen.SetActive(true);
+        }
+        private void Update()
+        {
+            _timer += Time.deltaTime;
+
+            if (_timer >= delayToNextStep)
+            {
+                _timer = 0f;
+                _dotCount = (_dotCount + 1) % 4;
+
+                loadingText.text = BaseText + new string('.', _dotCount);
+            }
         }
         private void LoadAdditiveScene()
         {
@@ -44,14 +64,14 @@ namespace RuntimeLoader
         }
         private static IEnumerator DownloadBundle(string gameId, Action callback = null)
         {
-            var request = UnityWebRequest.Get($"{URL}getscene.php?bundle={gameId}");
+            var request = UnityWebRequest.Get($"{URL}remote/getscene.php?bundle={gameId}");
             yield return request.SendWebRequest();
 
             var data = JsonUtility.FromJson<BundleList>(request.downloadHandler.text);
 
             foreach (var file in data.files)
             {
-                var dl = UnityWebRequest.Get($"{URL}/remote" + file);
+                var dl = UnityWebRequest.Get($"{URL}remote" + file);
                 yield return dl.SendWebRequest();
             }
 
