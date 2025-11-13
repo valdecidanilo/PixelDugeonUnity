@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -9,16 +10,20 @@ namespace RuntimeLoader
     public class RuntimeSceneLoader : MonoBehaviour
     {
         private const string URL = "https://oxentegames.com.br/remote/";
-        
+        [SerializeField] private GameObject loadingScreen;
         private void Start()
         {
             LoadAdditiveScene();
+            loadingScreen.SetActive(true);
         }
         private void LoadAdditiveScene()
         {
             var url = Application.absoluteURL;
             var bundleId = GetUrlParam(url, "bundle");
-            StartCoroutine(DownloadBundle(bundleId));
+            StartCoroutine(DownloadBundle(bundleId, () =>
+            {
+                loadingScreen.SetActive(false);
+            }));
         }
         private static string GetUrlParam(string url, string param)
         {
@@ -37,7 +42,7 @@ namespace RuntimeLoader
 
             return null;
         }
-        private static IEnumerator DownloadBundle(string gameId)
+        private static IEnumerator DownloadBundle(string gameId, Action callback = null)
         {
             var request = UnityWebRequest.Get($"{URL}getscene.php?bundle={gameId}");
             yield return request.SendWebRequest();
@@ -51,7 +56,7 @@ namespace RuntimeLoader
             }
 
             yield return Addressables.InitializeAsync();
-
+            callback?.Invoke();
             var scenes = new [] { $"layer0", $"layer1", $"layer2" };
 
             foreach (var s in scenes)
